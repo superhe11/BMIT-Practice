@@ -28,7 +28,7 @@ A Telegram bot that uses OpenAI's API to respond to user messages.
 
 1. Clone this repository
 
-2. Copy `.env.example` to `.env` and add your API keys:
+2. Copy `.env.example` to `.env` and add your API keys
 
 3. Edit `.env` and add your Telegram Bot token and OpenAI API key
 
