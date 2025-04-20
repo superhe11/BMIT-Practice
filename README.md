@@ -5,7 +5,7 @@ A Telegram bot that uses OpenAI's API to respond to user messages.
 
 
 
-## Video-guide
+## Video-guide (Click)
 [![Watch the video](https://img.youtube.com/vi/cEtp5ej1wt4/maxresdefault.jpg)](https://www.youtube.com/watch?v=cEtp5ej1wt4) 
 
 ## Features
