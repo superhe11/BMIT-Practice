@@ -22,58 +22,45 @@ A Telegram bot that uses OpenAI's API to respond to user messages.
 
   
 
+
 ## Setup
 
-  
-
 1. Clone this repository
-
-2. Copy `.env.example` to `.env` and add your API keys
-
-3. Edit `.env` and add your Telegram Bot token and OpenAI API key
-
+2. Copy `.env.example` to `.env` and add your API keys:
+   
+   ```
+   cp .env.example .env
+   ```
+4. Edit `.env` and add your:
+   - Telegram Bot Token (`TOKEN`)
+   - OpenAI API Key (`OPENAI_API_KEY`)
   
+
 
 ## Running the Bot
 
-  
-
 ### Using Docker
 
-  
-
 ```bash
-
 docker build -t gpt-bot .
-
 docker run --env-file .env gpt-bot
-
 ```
-
-  
 
 ### Using Docker Compose
 
-  
- 
-  ```bash
-  docker-compose up --build
-  ```
-
-  
-
-### Without Docker
-
-  
-
-1. Install the dependencies:
-
- ```bash
-  docker-compose up --build
- ```
-2. Run the bot:
-
-  
 ```bash
 docker-compose up --build
 ```
+
+### Without Docker
+
+1. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run the bot:
+   ```bash
+   python main.py
+   ```
+
